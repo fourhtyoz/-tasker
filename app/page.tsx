@@ -6,12 +6,8 @@ import Board from '@/components/Board'
 export default function Home() {
   return (
     <main>
-      {/* Header */}
       <Header />
-
-      {/* Board */}
       <Board />
-      <h1>Tasker</h1>
     </main>
   )
 }
