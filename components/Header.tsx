@@ -14,7 +14,7 @@ function Header() {
             top-0 
             left-0 
             w-full 
-            h-96 
+            h-96
             bg-gradient-to-br 
             from-pink-400 
             to-[#0055D1] 
@@ -24,7 +24,15 @@ function Header() {
             opacity-50 
             -z-50'>
         </div>
-        <div className='flex flex-col md:flex-row items-center p-5 bg-gray-500/10 rounded-b-2xl'>
+        <div className='
+            flex 
+            flex-col 
+            md:flex-row 
+            items-center 
+            p-5 
+            bg-gray-500/10 
+            rounded-b-2xl'
+        >
             <Image 
                 src='https://cdn.worldvectorlogo.com/logos/trello.svg' 
                 alt='Logo' 
